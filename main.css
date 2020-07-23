@@ -1,0 +1,66 @@
+body,
+html {
+  margin: 0;
+  height: 100vh;
+}
+
+body {
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  background: #eeeeee;
+  font-family: "Monaco", sans-serif;
+}
+
+.card {
+  padding: 0px 5em;
+}
+
+.card__img {
+  display: block;
+  height: 100px;
+  width: 100%;
+  background: crimson;
+}
+
+.card__content {
+  padding: 1.5em;
+  background-color: white;
+}
+
+.card__tags {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.card__item {
+  padding: 0.3em 0.5em;
+  margin-right: 0.5em;
+  background-color: #e6e6e6;
+}
+
+.card__item--active {
+  background: #d4d4d4;
+  font-weight: bold;
+}
+
+.card__link {
+  background: #2c8973;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  display: inline-block;
+  margin-top: 0.5em;
+}
+
+.card__link:hover {
+  background: limegreen;
+  color: #ddd;
+}
+/*# sourceMappingURL=main.css.map */
